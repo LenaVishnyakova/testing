@@ -21,11 +21,11 @@ int main()
 {
 	setlocale(LC_ALL, "Rus");
 
-	assert(fabs(ariph(2, 3) - 2.5) < FLT_EPSILON);
+	//assert(fabs(ariph(2, 3) - 2.5) < FLT_EPSILON);
 	
-	assert(fabs(geom(2, 3) - 2.44949) < FLT_EPSILON * 1000);
+	//assert(fabs(geom(2, 3) - 2.44949) < FLT_EPSILON * 1000);
 	
-	assert(fabs(ariph(4, 6) - 5) < FLT_EPSILON);
+	//assert(fabs(ariph(4, 6) - 5) < FLT_EPSILON);
 
 	float a, b;
 	cout << "¬ведите a: ";
